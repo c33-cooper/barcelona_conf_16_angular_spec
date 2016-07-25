@@ -1,3 +1,4 @@
+/*
 describe('Barcelona AngularJS App', function () {
 
   // *** Page Object Code ***
@@ -25,5 +26,5 @@ describe('Barcelona AngularJS App', function () {
     }); 
   });
 });
-
+*/
 

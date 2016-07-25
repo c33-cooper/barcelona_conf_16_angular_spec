@@ -1,4 +1,3 @@
-###
 require 'jasmine-given'
 
 describe "Barcelona AngularJS App", ->
@@ -9,6 +8,5 @@ describe "Barcelona AngularJS App", ->
       Given -> element(By.model("credentials.username")).sendKeys "admin"
       Given -> element(By.model("credentials.password")).sendKeys "pigsInBlankets"
       When  -> element(By.id("log-in")).click()
-      Then  -> expect(element(By.binding("message")).getText()).toEqual("Mouse Over these images to see a directive at work")
-###     
+      Then  -> expect(element(By.binding("message")).getText()).toEqual("Mouse Over these images to see a directive at work")    
 
