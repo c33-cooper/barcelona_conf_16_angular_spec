@@ -1,4 +1,4 @@
-describe('my angular app', function () {
+describe('Barcelona AngularJS App', function () {
 
   var bookRows;
 
