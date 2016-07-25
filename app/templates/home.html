@@ -6,17 +6,17 @@
 
     <ul class="small-block-grid-2">
       <li>
-        <img class="th" src="img/qa.png" shows-message-when-hovered message="QA Consulting">
+        <img id="qa-img" class="th" src="img/qa.png" shows-message-when-hovered message="QA Consulting">
       </li>
       <li>
-        <img class="th" src="img/angular.png" shows-message-when-hovered message="AngularJS">
+        <img id="angular-img" class="th" src="img/angular.png" shows-message-when-hovered message="AngularJS">
       </li>
     </ul>
 
     <div class="row">
       <div class="large-12 columns">
-        <button ng-click="books()" class="button success button large expand radius">List of Books</button> <br /><br />
-        <button ng-click="logout()" class="button alert button large expand radius">Log Out</button>
+        <button id="list-of-books-button" ng-click="books()" class="button success button large expand radius">List of Books</button> <br /><br />
+        <button id="logout-button" ng-click="logout()" class="button alert button large expand radius">Log Out</button>
       </div>
     </div>
   </div>
