@@ -33,6 +33,8 @@
 ## Alternatively, run end-to-end UI tests with Protractor through Lineman/Grunt :
 1. Ensure Node and NPM are installed on your machine. - https://nodejs.org/en/
 2. npm install protractor
-3. `lineman run` from 1 terminal window
-4. `lineman grunt spec-e2e` from another terminal window
+3. `./node_modules/protractor/bin/webdriver-manager update`
+4. Ensure you have chrome installed as this will be using chromedriver
+5. `lineman run` from 1 terminal window
+6. `lineman grunt spec-e2e` from another terminal window
 
