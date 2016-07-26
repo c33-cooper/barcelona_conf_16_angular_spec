@@ -29,7 +29,7 @@ describe('Barcelona AngularJS App', function () {
     });
 
     // Logout button test
-    describe('when clicking the Logout button', function() {
+    describe('when clicking the Logout button', function() {  
       it('should redirect the user to the login page', function() {
         element(By.id("logout-button")).click()
         expect(browser.getCurrentUrl()).toEqual('http://localhost:8000/login');
