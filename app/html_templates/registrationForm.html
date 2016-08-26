@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>React Demo</title>
+  <link rel="stylesheet" href="css/bundle.css" />
+</head>
+
+<body>
+  <div id="app" class="container">
+    <nav class="navbar navbar-default qaheader">
+      <div class="container-fluid">
+        <a href="/" class="navbar-brand">
+          <img src="images/QAC1.png" />
+        </a>
+        <ul class="nav navbar-nav">
+          <li><a href="/landingPage.html">Home</a></li>
+          <li><a href="/agenda.html">Our agenda</a></li>
+          <li class="active"><a href="/registrationForm.html">Registration</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h2 class="titleCentered">Register to one of our available talks!</h2>
+    <div class="containerForm">
+      <form id="contact" action="" method="post">
+        <h4 class="">Please complete the following details</h4>
+        <fieldset>
+          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your role" type="url" tabindex="4" required>
+        </fieldset>
+        <fieldset>
+          <div class="dropdown">
+            <a id="dLabel" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              Please select the talk you want to attend<span class="caret"></span></a>
+            <ul class="dropdown-menu" aria-labelledby="dLabel">
+              <li><a href="#">DevOps first look</a></li>
+              <li><a href="#">Web Design principles</a></li>
+              <li><a href="#">Pega world</a></li>
+            </ul>
+          </div>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" class="btn btn-lg btn-primary" data-submit="...Sending">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
